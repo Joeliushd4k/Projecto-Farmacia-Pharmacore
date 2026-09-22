@@ -1,15 +1,29 @@
 
-
 *{
     padding: 0;
     margin: 0;
     color:#e2e8f0 ;
+  font-family: "Rubik", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 500;
+  font-style: normal;
+  color-scheme: #38bdf8 #1e293b #10e7a6 #24a3b8;
+
 }
+
+
+.rubik {
+  font-family: "Rubik", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 600;
+  font-style: normal;
+}
+
 
 @media screen and (min-width: 0px) {
         .body{
         display: grid;
-        grid-template-columns: 1fr 3fr 3fr 1fr;
+        grid-template-columns: 1fr 7fr 7fr 1fr;
         grid-template-rows: 1fr 3fr 3fr 1fr;
         height: 100vh;
     }
@@ -19,13 +33,39 @@
         grid-row: 1;
         background-color: #38bdf8;
         height: auto;
+        justify-content: center;
+        grid-template-columns: 1fr 7fr 7fr 1fr;
+        grid-template-rows: 1fr;
+        display: grid;
+        padding-top: 10px;
     }
 
+    .logo{
+        border-radius: 15px;
+        height: 10vh;
+        grid-row: 1;
+        grid-column: 1;
+        justify-self: center;
+
+    }
+    
+    .titulo{
+        grid-column: 2/4;
+        grid-row: 1;
+        justify-self: center;
+
+    }
     .main{
         grid-column: 2/4;
         grid-row: 2/4 ;
         background-color: #1e293b;
         height: auto;
+        justify-content: center;
+    }
+    
+    .placeholder{
+        height: 100%;
+        width: 100%;
     }
 
     .aside1{
@@ -49,9 +89,9 @@
 }
 
 @media screen and (min-width: 400px) {
-        .body{
+         .body{
         display: grid;
-        grid-template-columns: 1fr 3fr 3fr 1fr;
+        grid-template-columns: 1fr 7fr 7fr 1fr;
         grid-template-rows: 1fr 3fr 3fr 1fr;
         height: 100vh;
     }
@@ -61,13 +101,39 @@
         grid-row: 1;
         background-color: #38bdf8;
         height: auto;
+        justify-content: center;
+        grid-template-columns: 1fr 7fr 7fr 1fr;
+        grid-template-rows: 1fr;
+        display: grid;
+        padding-top: 10px;
     }
 
+    .logo{
+        border-radius: 15px;
+        height: 10vh;
+        grid-row: 1;
+        grid-column: 1;
+        justify-self: center;
+
+    }
+    
+    .titulo{
+        grid-column: 2/4;
+        grid-row: 1;
+        justify-self: center;
+
+    }
     .main{
         grid-column: 2/4;
         grid-row: 2/4 ;
         background-color: #1e293b;
         height: auto;
+        justify-content: center;
+    }
+    
+    .placeholder{
+        height: 100%;
+        width: 100%;
     }
 
     .aside1{
@@ -91,9 +157,9 @@
 }
 
 @media screen and (min-width: 800px) {
-        .body{
+            .body{
         display: grid;
-        grid-template-columns: 1fr 3fr 3fr 1fr;
+        grid-template-columns: 1fr 7fr 7fr 1fr;
         grid-template-rows: 1fr 3fr 3fr 1fr;
         height: 100vh;
     }
@@ -103,13 +169,39 @@
         grid-row: 1;
         background-color: #38bdf8;
         height: auto;
+        justify-content: center;
+        grid-template-columns: 1fr 7fr 7fr 1fr;
+        grid-template-rows: 1fr;
+        display: grid;
+        padding-top: 10px;
     }
 
+    .logo{
+        border-radius: 15px;
+        height: 10vh;
+        grid-row: 1;
+        grid-column: 1;
+        justify-self: center;
+
+    }
+    
+    .titulo{
+        grid-column: 2/4;
+        grid-row: 1;
+        justify-self: center;
+
+    }
     .main{
         grid-column: 2/4;
         grid-row: 2/4 ;
         background-color: #1e293b;
         height: auto;
+        justify-content: center;
+    }
+    
+    .placeholder{
+        height: 100%;
+        width: 100%;
     }
 
     .aside1{
@@ -135,7 +227,7 @@
 @media screen and (min-width: 1200px) {
         .body{
         display: grid;
-        grid-template-columns: 1fr 3fr 3fr 1fr;
+        grid-template-columns: 1fr 7fr 7fr 1fr;
         grid-template-rows: 1fr 3fr 3fr 1fr;
         height: 100vh;
     }
@@ -145,13 +237,39 @@
         grid-row: 1;
         background-color: #38bdf8;
         height: auto;
+        justify-content: center;
+        grid-template-columns: 1fr 7fr 7fr 1fr;
+        grid-template-rows: 1fr;
+        display: grid;
+        padding-top: 10px;
     }
 
+    .logo{
+        border-radius: 15px;
+        height: 10vh;
+        grid-row: 1;
+        grid-column: 1;
+        justify-self: center;
+
+    }
+    
+    .titulo{
+        grid-column: 2/4;
+        grid-row: 1;
+        justify-self: center;
+
+    }
     .main{
         grid-column: 2/4;
         grid-row: 2/4 ;
         background-color: #1e293b;
         height: auto;
+        justify-content: center;
+    }
+    
+    .placeholder{
+        height: 100%;
+        width: 100%;
     }
 
     .aside1{
