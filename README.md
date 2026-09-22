@@ -1,1 +1,1 @@
-# Projecto-Farmacia-Pharmacore
+# Farmacia Pharmacore
