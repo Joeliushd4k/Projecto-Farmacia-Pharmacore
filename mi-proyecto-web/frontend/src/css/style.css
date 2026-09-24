@@ -19,6 +19,13 @@
   font-style: normal;
 }
 
+/* Color titulo */
+h1 {
+  background: linear-gradient(135deg, rgb(0, 245, 160) 0%, rgb(124, 58, 237) 100%);
+  background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
 /* Barra de busqueda*/
 
 ul {
